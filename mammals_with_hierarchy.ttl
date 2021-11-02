@@ -1,0 +1,28 @@
+@prefix mammal: <https://example.org/mammals-with-hierarchy/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mammal: a skos:ConceptScheme ;
+    dct:title "Prähistorische Säugetiere"@de, "Prehistoric mammals"@en ;
+    dct:creator "Daniel A. Rupp"@de ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept mammal:b0001 .
+
+mammal:b0001 a skos:Concept ;
+    skos:prefLabel "Rüsseltiere"@de , "Proboscidea"@en ;
+    skos:topConceptOf mammal: .
+
+mammal:b0002 a skos:Concept ;
+    skos:prefLabel "Mammutiden"@de , "Mammutidae"@en ;
+    skos:broader mammal:b0001 ;
+    skos:inScheme mammal: .
+
+mammal:b0003 a skos:Concept ;
+    skos:prefLabel "Elephantida"@de , "Elephantidae"@en ;
+    skos:broader mammal:b0001 ;
+    skos:inScheme mammal: .
+
+
+
