@@ -4,12 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0005",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor-with-hierarchy%2Fb0005",
   "prefLabel": {
-    "en": "cinnamon",
+    "en": "Cinnamon",
     "de": "Zimtfarben"
   },
   "altLabel": {
     "en": [
-      "light brown"
+      "Light brown"
     ],
     "de": [
       "Hellbraun"
