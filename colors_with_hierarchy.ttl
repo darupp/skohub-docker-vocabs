@@ -31,6 +31,6 @@ color:b0004 a skos:Concept ;
     skos:topConceptOf color: .
 
 color:b0005 a skos:Concept ;
-    skos:prefLabel "Zimtfarben"@de, "cinnamon"@en ;
-    skos:altLabel "Hellbraun"@de, "light brown"@en ;
+    skos:prefLabel "Zimtfarben"@de, "Cinnamon"@en ;
+    skos:altLabel "Hellbraun"@de, "Light brown"@en ;
     skos:inScheme color: .
